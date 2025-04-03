@@ -34,7 +34,7 @@ function App() {
         <ReactQueryDevtools initialIsOpen={false} />
 
         <GlobalStyles />
-        <BrowserRouter>
+        <BrowserRouter basename="/the-wild-oasis">
           <Routes>
             <Route
               element={
